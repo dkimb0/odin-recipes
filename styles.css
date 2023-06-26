@@ -6,6 +6,14 @@ body {
     background-color: peachpuff;
 }
 
+.links li{
+    margin: 10px 0;
+}
+
+.caption {
+    text-align: center;
+}
+
 .heading {
     color: cadetblue;
     font-family: cursive;
@@ -20,12 +28,11 @@ body {
     text-align: center;
     font-family: Helvetica, sans-serif;
     margin: 16px auto;
-    margin-right: auto;
-    padding-left: 0;
-    list-style-type: none;
-    border: 2px solid white;
+    list-style-type: circle;
+    border: 4px solid white;
     width: 200px;
-    padding: 20px;
+    padding: 20px 40px;
+    
 }
 
 .homeimage {
@@ -33,4 +40,29 @@ body {
     margin: 0 auto;
     width: 200px;
     height: auto;
+    border: lavender solid 2px;
+}
+
+.recipeimage {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+}
+
+.recipetitle {
+    text-align: center;
+}
+
+.recipebody {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.return {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 24px auto;
+    padding: 20px 20px;
 }
